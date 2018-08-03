@@ -6,9 +6,11 @@ class QuizQuestionButton extends Component
 	{
 		return
 		{
-			<li>
-				<button></button>
-			</li>
+			<ul>
+				<li>
+					<button></button>
+				</li>
+			</ul>
 		}
 	}
 }
