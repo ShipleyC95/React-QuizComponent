@@ -7,7 +7,7 @@ class QuizQuestionButton extends Component
 		return
 		(
 				<li>
-					<button></button>
+					<button>button_text</button>
 				</li>
 		)
 	}
