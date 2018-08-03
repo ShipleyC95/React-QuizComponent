@@ -2,11 +2,10 @@ import React, { Component } from 'react'
 
 class QuizQuestion extends Component
 {
-
-
 	render()
 	{
-		<main>
+		return (
+			<main>
 					<section>
 						<p>
 							// instruction text goes here 
@@ -17,7 +16,8 @@ class QuizQuestion extends Component
 							<li> this.props.quiz_questions.answer_options[0] </li>
 						</ul>
 					</section>
-				</main>
+			</main>
+		)
 	}	
 }
 
