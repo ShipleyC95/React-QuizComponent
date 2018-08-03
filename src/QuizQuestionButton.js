@@ -5,13 +5,11 @@ class QuizQuestionButton extends Component
 	render()
 	{
 		return
-		{
-			<ul>
+		(
 				<li>
 					<button></button>
 				</li>
-			</ul>
-		}
+		)
 	}
 }
 
